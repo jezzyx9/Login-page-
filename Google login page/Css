@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background: #E2E2E2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 300px;
+  height: 380px;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px #8B929C;
+align-items: center;
+justify-content: center;
+  
+}
+.logo{
+  position: relative;
+  height: 35px;
+  width: 100px;
+  top: -18px;
+  right: -90px;
+  
+}
+h1{
+  position: relative;
+  top: -14px;
+  right: -105px;
+  font-size: 30px;
+  font-weight: 450;
+}
+h3{
+  position: relative;
+  top: -10px;
+  right: -90px;
+  font-weight: 300;
+}
+.gi{
+  position: relative;
+  top: -5px;
+  margin: 5px;
+  padding: 7px;
+}
+.gi input{
+  width: 270px;
+  height: 45px;
+  border: 1px solid #838080;
+  outline: none;
+  border-radius: 2px;
+}
+.gi input::placeholder{
+  position: relative;
+  font-size: 17px;
+  right: -10px;
+}
+#btn{
+  position: relative;
+  width: 270px;
+  height: 45px;
+  background: #0A71FB;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  right: -12px;
+  bottom: -1px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+#btn:hover{
+  background: #3A3C40;
+}
+p>a{
+  position: relative;
+  right: -105px;
+  bottom: -26px;
+  color: #1D7EFF;
+  font-weight: 900;
+  text-decoration: none;
+}
